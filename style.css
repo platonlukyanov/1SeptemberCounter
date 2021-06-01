@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+body {
+    background: url('pictures/3.jpg');
+    background-size: cover;
+    color: honeydew;
+    font-family: 'Amatic SC', cursive;
+}
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+.content {
+    width: 100%;
+}
+.site-title {
+    text-align: center;
+    font-size: 370%;
+    margin: 2%;
+}
+
+.counter-title {
+    font-size: 200%;
+}
+
+.counter {
+    font-size: 270%;
+}
+
+.counters {
+    flex-direction: column;
+    display: flex;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+}
+
+.measure {
+    margin-left: 5%;
+    margin-right: 5%;
+}

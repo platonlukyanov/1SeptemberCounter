@@ -1,43 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Сколько осталось дней до 1 сентября?</title>
 </head>
 <body>
-    <h1>1 сентября</h1>
-    <div id="months">
-        <h3>Месяцов</h3>
-        <div id="months-counter"></div>
-    </div>
+   <div class="page">
+       <div class="content">
+        <h1 class="site-title">1 сентября</h1>
+           <div class="counters">
+            
+                    <div class="line">
+                        <div id="months" class="measure">
+                            <h3 class="counter-title">Месяцов</h3>
+                            <div id="months-counter" class="counter"></div>
+                        </div>
+                    
+                        <div id="weeks" class="measure">
+                            <h3 class="counter-title">Недель</h3>
+                            <div id="weeks-counter" class="counter"></div>
+                        </div>
+                    </div>
+                
+                
+                    <div class="line">
+                        <div id="days" class="measure">
+                            <h3 class="counter-title">Дней</h3>
+                            <div id="days-counter" class="counter"></div>
+                        </div>
+                    
+                        <div id="hours" class="measure">
+                            <h3 class="counter-title">Часов</h3>
+                            <div id="hours-counter" class="counter"></div>
+                        </div>
+                    
+                    </div>
 
-    <div id="weeks">
-        <h3>Недель</h3>
-        <div id="weeks-counter"></div>
-    </div>
-
-
-    <div id="days">
-        <h3>Дней</h3>
-        <div id="days-counter"></div>
-    </div>
-
-    <div id="hours">
-        <h3>Часов</h3>
-        <div id="hours-counter"></div>
-    </div>
-
-    <div id="minutes">
-        <h3>Минут</h3>
-        <div id="minutes-counter"></div>
-    </div>
-
-    <div id="seconds">
-        <h3>Секунд</h3>
-        <div id="seconds-counter"></div>
-    </div>
+                    <div class="line">
+                        
+                        <div id="minutes" class="measure">
+                            <h3 class="counter-title">Минут</h3>
+                            <div id="minutes-counter" class="counter"></div>
+                        </div>
+                    
+                        <div id="seconds" class="measure">
+                            <h3 class="counter-title">Секунд</h3>
+                            <div id="seconds-counter" class="counter"></div>
+                        </div>
+                    </div>
+                
+           </div>
+   </div>
+   </div>
     <script src="script.js"></script>
 </body>
 </html>
