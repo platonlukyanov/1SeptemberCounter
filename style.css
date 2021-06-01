@@ -43,3 +43,17 @@ body {
     margin-left: 5%;
     margin-right: 5%;
 }
+
+@media (max-width: 720px) {
+    .site-title {
+        font-size: 250%;
+    }
+    
+    .counter-title {
+        font-size: 140%;
+    }
+    
+    .counter {
+        font-size: 180%;
+    }
+}
