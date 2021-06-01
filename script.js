@@ -22,12 +22,12 @@ var cycle_function = ()=> {
     var months = days / 30;
 
 
-    months_counter.innerText = Math.round(months);
-    weeks_counter.innerText = Math.round(weeks);
-    days_counter.innerText = Math.round(days);
-    hours_counter.innerText = Math.round(hours);
-    minutes_counter.innerText = Math.round(minutes);
-    seconds_counter.innerText = Math.round(seconds);
+    months_counter.innerText = Math.round(months).toLocaleString();
+    weeks_counter.innerText = Math.round(weeks).toLocaleString();
+    days_counter.innerText = Math.round(days).toLocaleString();
+    hours_counter.innerText = Math.round(hours).toLocaleString();
+    minutes_counter.innerText = Math.round(minutes).toLocaleString();
+    seconds_counter.innerText = Math.round(seconds).toLocaleString();
 }
 
 cycle_function();
